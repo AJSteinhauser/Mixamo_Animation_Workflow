@@ -1,4 +1,4 @@
-# How to do import from mixamo
+# How to import animations from mixamo
 
 1. Install plugin in this file into blender
 2. File>Import>RBX_Import_FBX_RBX (Studio_Output.obj)
