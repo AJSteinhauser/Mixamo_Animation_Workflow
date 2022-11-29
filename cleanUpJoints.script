@@ -1,0 +1,11 @@
+
+
+
+import bpy
+
+for armature in [ob for ob in bpy.data.objects if ob.type == "ARMATURE"]:
+    for bone in armature.data.bones:
+        if bone.name.find("1"):
+            bone.name = bone.name.replace("1", "")
+        if bone.name.find("_end"):
+            bone.name = bone.name.replace("_end", "")
