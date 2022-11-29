@@ -1,4 +1,5 @@
 # How to import animations from mixamo
+## These steps assume you are familer with the steps listed [here](https://devforum.roblox.com/t/blender-rig-exporteranimation-importer/34729)
 
 1. Install plugin in this file into blender
 2. File>Import>RBX_Import_FBX_RBX (Studio_Output.obj)
